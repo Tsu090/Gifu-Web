@@ -1,1 +1,18 @@
 @charset "UTF-8";
+.wrapper{
+    max-width: 1120px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    gap: 32px;
+}
+.black-text{
+    color: black;
+}
