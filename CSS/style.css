@@ -1,4 +1,8 @@
 @charset "UTF-8";
+:root{
+--mainfont:'Noto Serif JP', serif;
+}
+
 .wrapper{
     max-width: 1120px;
 }
@@ -11,8 +15,13 @@ a {
     display: flex;
     list-style: none;
     text-align: center;
+    justify-content: center;
     gap: 32px;
 }
 .black-text{
     color: black;
+}
+
+.jp-text{
+    font-family: var(--mainfont);
 }
