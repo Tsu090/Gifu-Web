@@ -4,7 +4,7 @@
 }
 
 .wrapper{
-    max-width: 1120px;
+    max-width: 1200px;
     margin: auto;
     padding: 0 1.5rem;
 }
@@ -12,10 +12,14 @@
 a {
     text-decoration: none;
 }
-
+p{
+    font-size: 18px;
+}
 img{
-    max-width: 100%;
-    height: auto;
+    width: 1200px;
+    height: 400px;
+    object-fit: cover;
+    display: block;
 }
 
 .header{
@@ -34,15 +38,21 @@ img{
 }
 
 .btn{
-     width: 150px;
-  padding: 3px;
+
+  width: 150px;
+  padding: 10px;
   border: 1px solid #fc9569;
   text-align: center;
   transition: background-color 0.3s ease, color 0.3s ease;
   display: block;
+  width: fit-content;
+  margin-left: auto;
 }
 
 .btn:hover{
     background-color: #fc9569;
     color: #fff;
+}
+.margin{
+    height: 4rem;
 }
