@@ -6,8 +6,8 @@
 .wrapper{
     max-width: 1200px;
     margin: auto;
-    padding: 0 1.5rem;
 }
+
 
 a {
     text-decoration: none;
@@ -28,9 +28,19 @@ img{
     text-align: center;
     justify-content: center;
     gap: 50px;
+    padding: 30px;
+    /* margin: 0; */
+    background-color: #fc9569;
+}
+
+.header-img{
+    width: 100%;
 }
 .black-text{
     color: black;
+}
+.white-text{
+    color: white;
 }
 
 .jp-text{
@@ -55,4 +65,7 @@ img{
 }
 .margin{
     height: 4rem;
+}
+.mini-margin{
+    height: 1rem;
 }
