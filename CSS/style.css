@@ -89,3 +89,22 @@ footer{
 .sub-title{
     text-align: center;
 }
+.time-table{
+    width: 100%;
+    max-width: 600px;
+    align-items: center;
+    margin: auto;
+    border-spacing: 0;
+}
+.time-table td,
+.time-table th{
+    border-bottom: 1px solid black;
+}
+.time-table th{
+    text-align: left;
+    font-weight: normal;
+    padding: 1rem;
+}
+.time-table td {
+    padding: 1rem 0;
+}
