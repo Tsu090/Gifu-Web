@@ -109,9 +109,21 @@ footer{
 .time-table td {
     padding: 1rem 0;
 }
-.table-title{
-    text-align: center;
-}
+
 .blue-text{
     color: rgb(0, 0, 185);
+}
+.info-table{
+    width: 100%;
+    max-width: 600px;
+    padding: 30px;
+    border-spacing: 0;
+}
+.info-table th,
+.info-table td{
+    border-bottom: 1px solid black;
+}
+.info-table th{
+    text-align: left;
+    padding:0.5rem 2rem 0 0 ;
 }
