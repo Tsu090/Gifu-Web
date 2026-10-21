@@ -94,6 +94,7 @@ footer{
     max-width: 600px;
     align-items: center;
     margin: auto;
+    padding: 20px ;
     border-spacing: 0;
 }
 .time-table td,
@@ -103,8 +104,11 @@ footer{
 .time-table th{
     text-align: left;
     font-weight: normal;
-    padding: 1rem;
+    padding: 1.5rem 2rem;
 }
 .time-table td {
     padding: 1rem 0;
+}
+.table-title{
+    text-align: center;
 }
