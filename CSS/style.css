@@ -126,4 +126,9 @@ footer{
 .info-table th{
     text-align: left;
     padding:0.5rem 2rem 0 0 ;
+    font-weight: normal;
+}
+.text-right{
+    text-align: right;
+    /* display:block; */
 }
