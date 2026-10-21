@@ -132,3 +132,6 @@ footer{
     text-align: right;
     /* display:block; */
 }
+.border{
+    border: #fc9569 3px solid;
+}
