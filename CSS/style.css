@@ -142,3 +142,12 @@ footer{
     object-fit: cover;
     display: block;
 }
+.map{
+    height: 100ch;
+    overflow: hidden;
+}
+.map iframe {
+    width: 100%;
+    height: calc(100% + 56px);
+    margin-top: -56px;
+}
