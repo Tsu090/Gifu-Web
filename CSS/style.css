@@ -145,9 +145,10 @@ footer{
 .map{
     height: 100ch;
     overflow: hidden;
+    text-align: center;
 }
 .map iframe {
-    width: 100%;
-    height: calc(100% + 56px);
+    width: 80%;
+    height: calc(90% + 56px);
     margin-top: -56px;
 }
