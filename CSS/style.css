@@ -11,6 +11,7 @@
 
 a {
     text-decoration: none;
+    
 }
 p{
     font-size: 18px;
@@ -41,20 +42,21 @@ img.image-active {
 .slider-container {
   position: relative;
   display: flex;
-  width: 800px;
+  width: 1200px;
   height: 500px;
-  border: 5px solid lightgray;
 }
 
 .nav-container {
   position: absolute;
   bottom: 0;
-  width: 100%;
+  left: 10%;
+  width: 80%;
   height: 10%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: lightgray;
+  top: 500px;
+  z-index: 0;
 }
 
 .nav-btn {
@@ -89,6 +91,7 @@ img.image-active {
     background-color: #fff;
     width: 100%;
     box-shadow: 0 0 3px 0;
+    z-index: 999;
 }
 .header{
     display: flex;
@@ -97,7 +100,6 @@ img.image-active {
     justify-content: center;
     gap: 50px;
     padding: 30px;
-    /* margin: 0; */
     background-color: #fc9569;
     box-shadow: inset 0 0 3px 0;
 }
@@ -131,6 +133,7 @@ footer{
   display: block;
   width: fit-content;
   margin-left: auto;
+  z-index: 999;
 }
 
 .btn:hover{

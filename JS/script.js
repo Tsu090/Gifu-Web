@@ -1,31 +1,36 @@
-const images = document.querySelectorAll('.slide-img');
-const navContainer = document.querySelectorAll('.nav-container');
-const totalImages = images.length;
-let imageIndex = 0;
-let interval;
+const sliders = document.querySelectorAll('.slider-container');
 
-for(let i = 0; i < totalImages;i++){
-    const btn = document.createElement('btn');
-    btn.classList.add('nav-btn');
-    navContainer.appendChild(btn);
-}
+sliders.forEach(slider => {
+    const images = slider.querySelectorAll('.slide-img');
+    const navContainer = slider.querySelector('.nav-container');
 
-const buttons = document.querySelectorAll('.nav-btn');
+    const totalImages = images.length;
 
-buttons.forEach((btn,index)=>{
-    btn.addEventListener('click',()=>{
+    let imageIndex= 0;
+    let interval;
+
+    for(let i = 0;i < totalImages;i++){
+        const button = document.createElement('button');
+        button.classList.add('nav-btn');
+        navContainer.appendChild(button);
+    }
+    const buttons = navContainer.querySelectorAll('.nav-btn');
+
+    buttons.forEach((button,index)=>{
+    button.addEventListener('click',()=>{
         imageIndex = index;
         updateSlider();
         resetInterval();
     })
 })
 
+
 function updateSlider(){
     images.forEach(image => {
         image.classList.remove('image-active');
     });
-    buttons.forEach(btn => {
-        btn.classList.remove('btn-active');
+    buttons.forEach(button => {
+        button.classList.remove('btn-active');
     });
     images[imageIndex].classList.add('image-active');
     buttons[imageIndex].classList.add('btn-active');
@@ -50,3 +55,6 @@ function resetInterval(){
 
 updateSlider();
 autoPlay();
+
+});
+
