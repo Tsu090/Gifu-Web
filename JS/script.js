@@ -7,7 +7,7 @@ let interval;
 for(let i = 0; i < totalImages;i++){
     const btn = document.createElement('btn');
     btn.classList.add('nav-btn');
-    navContainer.appendChild(button);
+    navContainer.appendChild(btn);
 }
 
 const buttons = document.querySelectorAll('.nav-btn');
