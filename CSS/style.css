@@ -88,8 +88,8 @@ footer{
 .mini-margin{
     height: 1rem;
 }
-.minimini-margin{
-    height: 0.7rem;
+.midle-margin{
+    height: 2.8rem;
 }
 .flex-box{
     list-style: none;
@@ -145,13 +145,13 @@ footer{
     border: #fc9569 3px solid;
 }
 .title-img{
-    width: 550px;
-    height: 100px;
+    width: 400px;
+    height: 70px;
     object-fit: cover;
     display: block;
 }
 .map{
-    height: 100ch;
+    height: 500px;
     overflow: hidden;
     text-align: center;
 }
